@@ -1,1 +1,23 @@
 // Mixins Here
+
+// Building Colors:
+.bkbl() {
+    background-color: blue;
+}
+.bkgrn() {
+    background-color: green;
+}
+.bkrd() {
+    background-color: red;
+}
+.bkyllw() {
+    background-color: yellow;
+}
+
+//Flexbox:
+.flex(@flex-direction, @justify-content, @align-items){
+    display: flex;
+    flex-direction: @flex-direction;
+    justify-content: @justify-content;
+    align-items: @align-items;
+}
