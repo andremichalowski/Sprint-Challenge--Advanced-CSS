@@ -231,21 +231,26 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
-}
-@media (max-width: 500px) {
-  .home .sky {
-    display: hidden;
-  }
-}
-@media (max-width: 500px) {
-  .home .launch {
-    display: hidden;
-  }
 }
 .home .visit-planets {
   padding: 15px;
