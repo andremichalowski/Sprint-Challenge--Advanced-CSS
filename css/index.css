@@ -172,6 +172,12 @@ p {
   font-size: 4rem;
   margin: 1.5%;
 }
+@media (max-width: 500px) {
+  .nav-container h1 {
+    font-size: 2rem;
+    padding: 0.5% auto;
+  }
+}
 .nav-container .navbar {
   width: 50%;
   margin: 1%;
@@ -185,6 +191,12 @@ p {
   text-decoration: none;
   font-size: 1.6rem;
   color: #454A59;
+}
+@media (max-width: 500px) {
+  .nav-container .navbar a {
+    font-size: 0.8rem;
+    padding: 0.5% auto;
+  }
 }
 footer {
   color: #22283B;
