@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+   1. Adaptive design and Responsive design both use code to attempt to reframe a website design in a way to adjust to different viewport sizes. Both use media breakpoints to make the distinction between screen sizes but adaptive is fixed and uses pre-set/pre-sized dimensions and responsive uses adjustable or more "flex"-ible elements (primarily through the means of flexbox).
 2. Describe what it means to be mobile first vs desktop first.
+   1. Mobile first uses the minimum width values for media queries as opposed to maximum width values (which are used for desktop first).
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+   1. The font size in the html tag is the root page font size. "Rem" units used in any other font sizes refer to this unit and adjust accordingly depending on how the screen is changing. 
 
 4. How would you describe preprocessing to someone new to CSS?
+   1. Pre-processing is the process of using a "Preprocessor" such as ".less" to compile (use javascript to manipulate) more elaborate but concise code into larger sets of code with larger reaching effects than stand alone CSS.
+   2. The Lambda School training materials define Preprocessing as: "Preprocessing is simply a more robust syntax for CSS written in a different language. That language is then compiled into normal CSS. This is the most straightforward explanation of CSS preprocessors: Syntax (LESS) -> Compiler (JavaScript) -> CSS"
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+   1. Parametric mixins are my favorite. They are so useful and I really feel like I am learning something using them. The concept that gives me the most trouble is dealing with debugging in .less. I feel like I have to stop and restart my compiler constantly. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
