@@ -6,12 +6,25 @@
 
     h2 {
       padding: 15px;
+      @media @mobile {
+        .mft();
+    };
     }
 
     p {
       padding:0 15px;
+      @media @mobile {
+        .mf();
+      };
     }
   
+  }
+
+  .walk-img {
+    @media @mobile {
+      display: flex;
+      flex-shrink: 1;
+  };
   }
 
   .space-images {
@@ -32,10 +45,16 @@
 
     h3 {
       margin-top: 11px;
+      @media @mobile {
+        .mft();
+      };
     }
 
     p {
       margin-top: 13px;
+      @media @mobile {
+        .mf();
+      };
     }
   }
 
@@ -45,16 +64,27 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media @mobile {
+      .flex(column, center, center);
+    };
+    }
 
     .walk-text {
       width: 50%;
+    
 
       h3 {
         margin-bottom: 10px;
+        @media @mobile {
+          .mft();
+        };
       }
 
       p {
         margin-bottom: 26px;
+        @media @mobile {
+          .mf();
+        };
       }
 
       .btn {
@@ -71,6 +101,7 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      
       
       img {
         width: 100%;
