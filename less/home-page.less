@@ -60,7 +60,12 @@
       .btn {
         .btn(@porcelain, @btn-bg-color);
         .buttonPaddingAndMarginSecondMixin();
+        &:hover {
+          background-color: @wild-sand;
+          color: @btn-bg-color;
+        }
       }
+
     }
 
     .walk-img {
